@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+quart2d.h"
+#import <UIKit/UIKit.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *backImage;
 
 @end
 
@@ -16,7 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    self.backImage.image = [UIImage drawImageWithImageNamed:@"1242-2208"];
+ 
+//    self.backImage.image = [UIImage waterImageWithImage:[UIImage imageNamed:@"1242-2208"] text:@"水印文字" textPt:CGPointMake(100, 100) attributedString:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"PingFang-SC-Medium" size: 50], NSFontAttributeName, nil]];
+    
+    
+    self.backImage.image = [UIImage waterImageWithImage:[UIImage imageNamed:@"guanlangaoshou07.jpg"] waterImage:[UIImage imageNamed:@"1242-2208"] waterImageRect:CGRectMake(50, 50, 100, 100)];
 }
 
 
