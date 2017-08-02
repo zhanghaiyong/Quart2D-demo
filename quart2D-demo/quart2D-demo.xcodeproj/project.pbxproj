@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9986040A1F317D57007FA9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 998604091F317D57007FA9F6 /* main.m */; };
+		9986040D1F317D57007FA9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986040C1F317D57007FA9F6 /* AppDelegate.m */; };
+		998604101F317D57007FA9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986040F1F317D57007FA9F6 /* ViewController.m */; };
+		998604131F317D57007FA9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998604111F317D57007FA9F6 /* Main.storyboard */; };
+		998604151F317D57007FA9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998604141F317D57007FA9F6 /* Assets.xcassets */; };
+		998604181F317D57007FA9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998604161F317D57007FA9F6 /* LaunchScreen.storyboard */; };
+		998604231F317D57007FA9F6 /* quart2D_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 998604221F317D57007FA9F6 /* quart2D_demoTests.m */; };
+		9986042E1F317D57007FA9F6 /* quart2D_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986042D1F317D57007FA9F6 /* quart2D_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9986041F1F317D57007FA9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998603FD1F317D57007FA9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998604041F317D57007FA9F6;
+			remoteInfo = "quart2D-demo";
+		};
+		9986042A1F317D57007FA9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998603FD1F317D57007FA9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998604041F317D57007FA9F6;
+			remoteInfo = "quart2D-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		998604051F317D57007FA9F6 /* quart2D-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quart2D-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998604091F317D57007FA9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9986040B1F317D57007FA9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9986040C1F317D57007FA9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9986040E1F317D57007FA9F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9986040F1F317D57007FA9F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		998604121F317D57007FA9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		998604141F317D57007FA9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		998604171F317D57007FA9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		998604191F317D57007FA9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9986041E1F317D57007FA9F6 /* quart2D-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quart2D-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998604221F317D57007FA9F6 /* quart2D_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quart2D_demoTests.m; sourceTree = "<group>"; };
+		998604241F317D57007FA9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998604291F317D57007FA9F6 /* quart2D-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quart2D-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9986042D1F317D57007FA9F6 /* quart2D_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quart2D_demoUITests.m; sourceTree = "<group>"; };
+		9986042F1F317D57007FA9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998604021F317D57007FA9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9986041B1F317D57007FA9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998604261F317D57007FA9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998603FC1F317D57007FA9F6 = {
+			isa = PBXGroup;
+			children = (
+				998604071F317D57007FA9F6 /* quart2D-demo */,
+				998604211F317D57007FA9F6 /* quart2D-demoTests */,
+				9986042C1F317D57007FA9F6 /* quart2D-demoUITests */,
+				998604061F317D57007FA9F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998604061F317D57007FA9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998604051F317D57007FA9F6 /* quart2D-demo.app */,
+				9986041E1F317D57007FA9F6 /* quart2D-demoTests.xctest */,
+				998604291F317D57007FA9F6 /* quart2D-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998604071F317D57007FA9F6 /* quart2D-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9986040B1F317D57007FA9F6 /* AppDelegate.h */,
+				9986040C1F317D57007FA9F6 /* AppDelegate.m */,
+				9986040E1F317D57007FA9F6 /* ViewController.h */,
+				9986040F1F317D57007FA9F6 /* ViewController.m */,
+				998604111F317D57007FA9F6 /* Main.storyboard */,
+				998604141F317D57007FA9F6 /* Assets.xcassets */,
+				998604161F317D57007FA9F6 /* LaunchScreen.storyboard */,
+				998604191F317D57007FA9F6 /* Info.plist */,
+				998604081F317D57007FA9F6 /* Supporting Files */,
+			);
+			path = "quart2D-demo";
+			sourceTree = "<group>";
+		};
+		998604081F317D57007FA9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				998604091F317D57007FA9F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		998604211F317D57007FA9F6 /* quart2D-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				998604221F317D57007FA9F6 /* quart2D_demoTests.m */,
+				998604241F317D57007FA9F6 /* Info.plist */,
+			);
+			path = "quart2D-demoTests";
+			sourceTree = "<group>";
+		};
+		9986042C1F317D57007FA9F6 /* quart2D-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9986042D1F317D57007FA9F6 /* quart2D_demoUITests.m */,
+				9986042F1F317D57007FA9F6 /* Info.plist */,
+			);
+			path = "quart2D-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998604041F317D57007FA9F6 /* quart2D-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998604321F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demo" */;
+			buildPhases = (
+				998604011F317D57007FA9F6 /* Sources */,
+				998604021F317D57007FA9F6 /* Frameworks */,
+				998604031F317D57007FA9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quart2D-demo";
+			productName = "quart2D-demo";
+			productReference = 998604051F317D57007FA9F6 /* quart2D-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9986041D1F317D57007FA9F6 /* quart2D-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998604351F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demoTests" */;
+			buildPhases = (
+				9986041A1F317D57007FA9F6 /* Sources */,
+				9986041B1F317D57007FA9F6 /* Frameworks */,
+				9986041C1F317D57007FA9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998604201F317D57007FA9F6 /* PBXTargetDependency */,
+			);
+			name = "quart2D-demoTests";
+			productName = "quart2D-demoTests";
+			productReference = 9986041E1F317D57007FA9F6 /* quart2D-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		998604281F317D57007FA9F6 /* quart2D-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998604381F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demoUITests" */;
+			buildPhases = (
+				998604251F317D57007FA9F6 /* Sources */,
+				998604261F317D57007FA9F6 /* Frameworks */,
+				998604271F317D57007FA9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9986042B1F317D57007FA9F6 /* PBXTargetDependency */,
+			);
+			name = "quart2D-demoUITests";
+			productName = "quart2D-demoUITests";
+			productReference = 998604291F317D57007FA9F6 /* quart2D-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998603FD1F317D57007FA9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhy;
+				TargetAttributes = {
+					998604041F317D57007FA9F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AKEZGLTY8R;
+						ProvisioningStyle = Automatic;
+					};
+					9986041D1F317D57007FA9F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AKEZGLTY8R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 998604041F317D57007FA9F6;
+					};
+					998604281F317D57007FA9F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AKEZGLTY8R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 998604041F317D57007FA9F6;
+					};
+				};
+			};
+			buildConfigurationList = 998604001F317D57007FA9F6 /* Build configuration list for PBXProject "quart2D-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998603FC1F317D57007FA9F6;
+			productRefGroup = 998604061F317D57007FA9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998604041F317D57007FA9F6 /* quart2D-demo */,
+				9986041D1F317D57007FA9F6 /* quart2D-demoTests */,
+				998604281F317D57007FA9F6 /* quart2D-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998604031F317D57007FA9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998604181F317D57007FA9F6 /* LaunchScreen.storyboard in Resources */,
+				998604151F317D57007FA9F6 /* Assets.xcassets in Resources */,
+				998604131F317D57007FA9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9986041C1F317D57007FA9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998604271F317D57007FA9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998604011F317D57007FA9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998604101F317D57007FA9F6 /* ViewController.m in Sources */,
+				9986040D1F317D57007FA9F6 /* AppDelegate.m in Sources */,
+				9986040A1F317D57007FA9F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9986041A1F317D57007FA9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998604231F317D57007FA9F6 /* quart2D_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998604251F317D57007FA9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9986042E1F317D57007FA9F6 /* quart2D_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		998604201F317D57007FA9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998604041F317D57007FA9F6 /* quart2D-demo */;
+			targetProxy = 9986041F1F317D57007FA9F6 /* PBXContainerItemProxy */;
+		};
+		9986042B1F317D57007FA9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998604041F317D57007FA9F6 /* quart2D-demo */;
+			targetProxy = 9986042A1F317D57007FA9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		998604111F317D57007FA9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998604121F317D57007FA9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		998604161F317D57007FA9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998604171F317D57007FA9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998604301F317D57007FA9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998604311F317D57007FA9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998604331F317D57007FA9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		998604341F317D57007FA9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		998604361F317D57007FA9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quart2D-demo.app/quart2D-demo";
+			};
+			name = Debug;
+		};
+		998604371F317D57007FA9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quart2D-demo.app/quart2D-demo";
+			};
+			name = Release;
+		};
+		998604391F317D57007FA9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "quart2D-demo";
+			};
+			name = Debug;
+		};
+		9986043A1F317D57007FA9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				INFOPLIST_FILE = "quart2D-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhanghaiyong.quart2D-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "quart2D-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998604001F317D57007FA9F6 /* Build configuration list for PBXProject "quart2D-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998604301F317D57007FA9F6 /* Debug */,
+				998604311F317D57007FA9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998604321F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998604331F317D57007FA9F6 /* Debug */,
+				998604341F317D57007FA9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		998604351F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998604361F317D57007FA9F6 /* Debug */,
+				998604371F317D57007FA9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		998604381F317D57007FA9F6 /* Build configuration list for PBXNativeTarget "quart2D-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998604391F317D57007FA9F6 /* Debug */,
+				9986043A1F317D57007FA9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998603FD1F317D57007FA9F6 /* Project object */;
+}
