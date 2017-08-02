@@ -25,9 +25,16 @@
 //    self.backImage.image = [UIImage waterImageWithImage:[UIImage imageNamed:@"1242-2208"] text:@"水印文字" textPt:CGPointMake(100, 100) attributedString:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"PingFang-SC-Medium" size: 50], NSFontAttributeName, nil]];
     
     
-    self.backImage.image = [UIImage waterImageWithImage:[UIImage imageNamed:@"guanlangaoshou07.jpg"] waterImage:[UIImage imageNamed:@"1242-2208"] waterImageRect:CGRectMake(50, 50, 100, 100)];
+//    self.backImage.image = [UIImage waterImageWithImage:[UIImage imageNamed:@"guanlangaoshou07.jpg"] waterImage:[UIImage imageNamed:@"1242-2208"] waterImageRect:CGRectMake(50, 50, 100, 100)];
+//    self.backImage.image = [UIImage clipCircleImageWithImage:[UIImage imageNamed:@"1242-2208"] circleRect:CGRectMake(100, 100, 200, 200) borderWidth:5 borderColor:[UIColor redColor]];
+    
+    self.backImage.image = [self.backImage.image wipeImageWithView:self.backImage currentPoint:CGPointMake(100, 100) size:CGSizeMake(20, 20)];
+
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
